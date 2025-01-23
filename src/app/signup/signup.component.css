@@ -1,0 +1,55 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
+@media (max-width: 600px) {
+    .signup-container {
+      padding: 20px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+  }
+  
+
+
+.signup-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #dfcac6;
+  }
+  
+
+.mat-input-element {
+    color: black !important;
+  }
+  
+
+button {
+    background-color: #a6b6b3 !important; /* Purple */
+    color: #3f3b3b !important;
+  }  
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+.full-width {
+    width: 100%;
+  }
+  
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
